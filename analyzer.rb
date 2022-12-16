@@ -16,7 +16,7 @@ puts "Your full name is #{first_name} #{last_name}"
 puts "Your full name reveresed is #{last_name.reverse} #{first_name.reverse}"
 puts "Your name has #{first_name.length + last_name.length} characters in it"
 
-#Alternate method
+# Alternate method
     # full_name = first_name + " " + last_name
     # full_name
     # full_name.reverse

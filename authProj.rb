@@ -15,9 +15,12 @@ def auth_user(userVar, passVar, list_of_users)
             # return exits the method
             return user_record
         else
-            return "Credentials were not correct"
         end
     end
+# 7 change exit statement here so we loop through all the passwords and users
+    # return is implied
+    "Credentials were not correct"
+
 end
 
 puts "Welcome to the Auth project"

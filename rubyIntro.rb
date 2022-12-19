@@ -41,7 +41,14 @@ say_hello
 # Methods take something from you and then they preform some function and return you something
 # the argument is returned 2 lines below
 def second_method(thing_to_put)
-    puts thing_to_put
+  puts thing_to_put
 end
 # returns "method calling properly"
 second_method "method calling properly"
+
+# Style for Ruby
+# this_is_snake_case
+  # used for methods and variables
+# camelCase
+  #
+# 2 spaces is for Ruby and Rails

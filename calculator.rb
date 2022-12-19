@@ -26,22 +26,22 @@ puts "The modular of the first number by the second number is #{num_1.to_f % num
 # Methods
 
 def multiply(first_num, second_num)
-    # the last evaluated statement/expression in a method
-    # Return is auto implied
-    # don't need to conclude return
-    first_num.to_f * second_num.to_f
+  # the last evaluated statement/expression in a method
+  # Return is auto implied
+  # don't need to conclude return
+  first_num.to_f * second_num.to_f
 end
 def divide(first_num, second_num)
-    first_num.to_f / second_num.to_f
+  first_num.to_f / second_num.to_f
 end
 def subtract(first_num, second_num)
-    first_num.to_f - second_num.to_f
+  first_num.to_f - second_num.to_f
 end
 def add(first_num, second_num)
-    first_num.to_f + second_num.to_f
+  first_num.to_f + second_num.to_f
 end
 def mod(first_num, second_num)
-    first_num.to_f % second_num.to_f
+  first_num.to_f % second_num.to_f
 end
 
 # Will reutrn undefined method if applied above

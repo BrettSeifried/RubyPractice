@@ -26,9 +26,9 @@ end
 condition = false
 
 if condition
-    puts "Hello"
+  puts "Hello"
 else
-    puts "Bye"
+  puts "Bye"
 end
 
 # returns Bye
@@ -40,9 +40,9 @@ another_condition = true
 
 # && is AND
 if condition && another_condition
-    puts "Hello"
+  puts "Hello"
 else
-    puts "Bye"
+  puts "Bye"
 end
 # Returns Hello
 # if one is false, will return Bye
@@ -66,9 +66,9 @@ another_condition = false
 
 # || is an or operator
 if condition && another_condition
-    puts "True"
+  puts "True"
 else
-    puts "False"
+  puts "False"
 end
 # Returns False
 #----------------
@@ -79,9 +79,9 @@ another_condition = false
 
 # || is an or operator
 if !condition && !another_condition
-    puts "True"
+  puts "True"
 else
-    puts "False"
+  puts "False"
 end
 # Returns True
 #----------------
@@ -93,20 +93,20 @@ new_condition = true
 
 # || is an or operator
 if ( !condition || !another_condition) && (new_condition)
-    puts "True"
+  puts "True"
 else
-    puts "False"
+  puts "False"
 end
 # Returns True
 
 name = "Brett"
 
 if name == "Brett"
-    puts "Welcome!"
+  puts "Welcome!"
 elsif name == "Jack"
-    puts "Hi Jack!"
+  puts "Hi Jack!"
 else
-    puts "Welcome new person"
+  puts "Welcome new person"
 end
 # If Brett, Welcome! else if Jack, Hi jack. if neither welcome new person
 

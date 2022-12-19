@@ -1,10 +1,10 @@
 # Comparison Operators
-    # Trying to comapre two items
-    # == Equal?
-        # a == b ?
-    # != not equal to
-    # > greater than
-    # < less than
+  # Trying to comapre two items
+  # == Equal?
+    # a == b ?
+  # != not equal to
+  # > greater than
+  # < less than
 
 puts 10 == 9
 # Returns false

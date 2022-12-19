@@ -8,9 +8,9 @@
 # puts "Thank you, you said your first name is #{first_name}"
 
 #returns
-    #What is your first name?
-    # user input
-    # Thank you, you said your name is (what they entered)
+  #What is your first name?
+  # user input
+  # Thank you, you said your name is (what they entered)
 
 # Everything above commented out -------------
 

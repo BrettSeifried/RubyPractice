@@ -3,16 +3,16 @@ puts 1 + 2
 
 puts 10 / 4
 #returns 2
-    # integer by division
-    # ie. drops the decimal
-    
+  # integer by division
+  # ie. drops the decimal
+
 puts 10.0 / 4
 # returns 2.5
 # 10 / 4.0 returns 2.5 as well
 # 10 / 4.to_f 
-    # to float which turns entire thing into a floar
-    # (10 /4).to_f does not work returns 2
-        # both integers
+  # to float which turns entire thing into a floar
+  # (10 /4).to_f does not work returns 2
+    # both integers
 
 # Vairabels
 x = 5
@@ -23,7 +23,7 @@ puts y / x
 
 # Strings as numbers
 # "5" * "5" gets an error
-    # can't multiply a stirng by a string
+  # can't multiply a stirng by a string
 
 puts "5" * 2
 # Returns 55
@@ -31,8 +31,8 @@ puts "5" * 2
 # a number times a string
 # returns and error
 #  2 * "5"
-    # a string and be multiplied by a number
-    # but a number CAN NOT be multiplied by a string
+  # a string and be multiplied by a number
+  # but a number CAN NOT be multiplied by a string
 
 puts "-" * 20
 # creates a line ie. a divider
@@ -43,7 +43,7 @@ puts "See the above line?"
 20.times { print "-"}
 
 # Random numbers
-    # outputs 20 random numbers between 0-9
+  # outputs 20 random numbers between 0-9
 20.times { puts rand(10) }
 
 # convert strings

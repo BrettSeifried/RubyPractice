@@ -69,3 +69,5 @@ while attempts < 4
     attempts += 1
 
 end
+#8 final exit message
+puts "You have exceeded the number of attempts" if attempts == 4

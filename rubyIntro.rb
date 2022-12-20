@@ -49,6 +49,11 @@ second_method "method calling properly"
 # Style for Ruby
 # this_is_snake_case
   # used for methods and variables
-# camelCase
-  #
+# CamelCase for class names
+  # every object at some level is a class
+  # Classes start with a capital letter
 # 2 spaces is for Ruby and Rails
+
+# Ruby Styling Github
+# https://github.com/rubocop/ruby-style-guide
+# https://github.com/rubocop-hq/ruby-style-guide

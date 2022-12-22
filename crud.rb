@@ -35,3 +35,19 @@ def create_secure_users(list_of_users)
 end
 
 puts create_secure_users(users)
+
+# Authenticate the Password
+
+def auth_user(username, password, list_of_users)
+  # loop through each record
+  list_of_users.each do |user_record|
+    # Compare if username from array AND hash password matches password hash from user input
+    if user_record[:username] == username && verify_hash_digest(user_record[:password]) == password
+      return user_record
+    end
+  end
+  "Crednetials were not correct"
+end
+
+# Test to see if auth_user works.
+puts auth_user("brettford", "password1", users)

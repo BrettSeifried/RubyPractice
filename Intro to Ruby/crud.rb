@@ -34,7 +34,9 @@ def create_secure_users(list_of_users)
   list_of_users
 end
 
-puts create_secure_users(users)
+# create new users array with hash passwords
+new_users = create_secure_users(users)
+puts new_users
 
 # Authenticate the Password
 
@@ -50,4 +52,6 @@ def auth_user(username, password, list_of_users)
 end
 
 # Test to see if auth_user works.
-puts auth_user("brettford", "password1", users)
+puts auth_user("brettford", "password1", new_users)
+# # Test if wrong password is entered
+# puts auth_user("brettford", "password", new_users)
